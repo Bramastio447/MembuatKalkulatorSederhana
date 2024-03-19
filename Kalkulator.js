@@ -21,6 +21,9 @@ hitung.addEventListener('click', function() {
         case '*':
             hasilPerhitungan = nilai1 * nilai2;
             break;
+        case '/':
+            hasilPerhitungan = nilai1 / nilai2;
+            break;
     }
 
     hasil.textContent = hasilPerhitungan;
